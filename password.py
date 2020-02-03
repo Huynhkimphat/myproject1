@@ -1,3 +1,4 @@
+from random import shuffle
 import random
 s = "abcdefghijklmnopqrstuvwxyz"
 l = 2
@@ -9,5 +10,6 @@ s="ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 p[2] =  "".join(random.sample(s,l ))
 s="#!@#$%^&*()?"
 p[3]= "".join(random.sample(s,l ))
+shuffle(p)
 for i in p:
     print(i,end="")
