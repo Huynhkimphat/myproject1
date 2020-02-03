@@ -8,6 +8,7 @@ def test(x, y):
             cowbull[1]+=1
     return cowbull
 x = str(random.randint(1000,9999)) 
+print(x)
 guesses = 0
 while True:
     
